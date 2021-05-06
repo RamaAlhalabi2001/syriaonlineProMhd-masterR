@@ -94,7 +94,7 @@ class _ServiceViewState extends State<ServiceView> {
                           child: Center(child: CircularProgressIndicator()));
                     } else {
                       return GridView.builder(
-                          shrinkWrap: true,
+                          // shrinkWrap: true,
                           itemCount: services.length,
                           gridDelegate:
                               new SliverGridDelegateWithFixedCrossAxisCount(
